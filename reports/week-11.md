@@ -18,8 +18,8 @@ Commit hash: e96e375
 Description: Add OpenRouter client and first LLM request: text to JSON filters 
 Link: https://github.com/Darynbased17/css4007-ai-agents-final/commit/e96e375
 
-Commit hash: 0d240ed Description: 
-Add model comparison experiment and setup documentation 
+Commit hash: 0d240ed 
+Description: Add model comparison experiment and setup documentation 
 Link: https://github.com/Darynbased17/css4007-ai-agents-final/commit/0d240ed
 
 ## Current Functionality
@@ -30,9 +30,10 @@ Link: https://github.com/Darynbased17/css4007-ai-agents-final/commit/0d240ed
 
 3) Model comparison results (10 requests per model, run on 2026-11-15): Compered google/gemini-2.5-flash-lite and openai/gpt-oss-20b
 
-Model	| Correct |	Errors | Tokens in / out | Avg latency | Cost of 10 requests
-openai/gpt-oss-20b	| 10/10 |	0 |	4,908 / 1,663 |	2.45 s |	$0.000397
-google/gemini-2.5-flash-lite	| 10/10	| 0	| 4,142 / 340	| 1.23 s	| $0.000550
+| Model | Correct | Errors | Tokens in / out | Avg latency | Cost of 10 requests |
+|---|---|---|---|---|---|
+| openai/gpt-oss-20b | 10/10 | 0 | 4,908 / 1,663 | 2.45 s | $0.000397 |
+| google/gemini-2.5-flash-lite | 10/10 | 0 | 4,142 / 340 | 1.23 s | $0.000550 |
 
 * Selected model: google/gemini-2.5-flash-lite (see Solutions).
 * What is not implemented: validation of filter values, retry on bad JSON, search in the CSV (Week 12)
