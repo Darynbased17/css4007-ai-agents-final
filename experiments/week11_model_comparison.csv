@@ -1,0 +1,21 @@
+model,request,expected,got,correct,error,input_tokens,output_tokens,seconds,cost_usd
+openai/gpt-oss-20b,"Хочу 2-комнатную в Бостандыкском до 45 млн, не первый этаж","['Bostandyk', 2, 45000000, 2]","['Bostandyk', 2, 45000000, 2]",True,,513,140,3.25,3.639e-05
+openai/gpt-oss-20b,1-room apartment in Medeu under 30M,"['Medeu', 1, 30000000, None]","['Medeu', 1, 30000000, None]",True,,503,214,2.81,4.719e-05
+openai/gpt-oss-20b,двушка в Ауэзовском районе до 35 миллионов,"['Auezov', 2, 35000000, None]","['Auezov', 2, 35000000, None]",True,,506,116,1.68,3.2579999999999996e-05
+openai/gpt-oss-20b,трёшка Алмалинский максимум 60 000 000 тенге,"['Almaly', 3, 60000000, None]","['Almaly', 3, 60000000, None]",True,,462,175,3.79,4.011e-05
+openai/gpt-oss-20b,квартира в Турксибе,"['Turksib', None, None, None]","['Turksib', None, None, None]",True,,454,102,2.3,2.8919999999999998e-05
+openai/gpt-oss-20b,"однокомнатная до 25 млн, не ниже 3 этажа","[None, 1, 25000000, 3]","[None, 1, 25000000, 3]",True,,509,176,2.44,4.167e-05
+openai/gpt-oss-20b,"4-комнатная в Алатауском до 70 млн, этаж от 5","['Alatau', 4, 70000000, 5]","['Alatau', 4, 70000000, 5]",True,,511,227,2.49,4.938e-05
+openai/gpt-oss-20b,"2 комнаты в Жетысуском, бюджет 30 млн","['Zhetysu', 2, 30000000, None]","['Zhetysu', 2, 30000000, None]",True,,506,215,2.41,4.743e-05
+openai/gpt-oss-20b,квартира в Бостандыкскм до 40млн,"['Bostandyk', None, 40000000, None]","['Bostandyk', None, 40000000, None]",True,,489,142,1.15,3.5969999999999996e-05
+openai/gpt-oss-20b,Хочу квартиру в Есильском районе,"[None, None, None, None]","[None, None, None, None]",True,,455,156,2.15,3.705e-05
+google/gemini-2.5-flash-lite,"Хочу 2-комнатную в Бостандыкском до 45 млн, не первый этаж","['Bostandyk', 2, 45000000, 2]","['Bostandyk', 2, 45000000, 2]",True,,422,38,1.09,5.7400000000000006e-05
+google/gemini-2.5-flash-lite,1-room apartment in Medeu under 30M,"['Medeu', 1, 30000000, None]","['Medeu', 1, 30000000, None]",True,,411,36,1.43,5.55e-05
+google/gemini-2.5-flash-lite,двушка в Ауэзовском районе до 35 миллионов,"['Auezov', 2, 35000000, None]","['Auezov', 2, 35000000, None]",True,,413,36,1.06,5.5700000000000005e-05
+google/gemini-2.5-flash-lite,трёшка Алмалинский максимум 60 000 000 тенге,"['Almaly', 3, 60000000, None]","['Almaly', 3, 60000000, None]",True,,420,36,0.98,5.6399999999999995e-05
+google/gemini-2.5-flash-lite,квартира в Турксибе,"['Turksib', None, None, None]","['Turksib', None, None, None]",True,,406,27,0.99,5.14e-05
+google/gemini-2.5-flash-lite,"однокомнатная до 25 млн, не ниже 3 этажа","[None, 1, 25000000, 3]","[None, 1, 25000000, 3]",True,,416,34,1.18,5.52e-05
+google/gemini-2.5-flash-lite,"4-комнатная в Алатауском до 70 млн, этаж от 5","['Alatau', 4, 70000000, 5]","['Alatau', 4, 70000000, 5]",True,,420,36,1.32,5.6399999999999995e-05
+google/gemini-2.5-flash-lite,"2 комнаты в Жетысуском, бюджет 30 млн","['Zhetysu', 2, 30000000, None]","['Zhetysu', 2, 30000000, None]",True,,412,37,1.23,5.6e-05
+google/gemini-2.5-flash-lite,квартира в Бостандыкскм до 40млн,"['Bostandyk', None, 40000000, None]","['Bostandyk', None, 40000000, None]",True,,414,36,1.1,5.58e-05
+google/gemini-2.5-flash-lite,Хочу квартиру в Есильском районе,"[None, None, None, None]","[None, None, None, None]",True,,408,24,1.97,5.0400000000000005e-05
